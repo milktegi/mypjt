@@ -1,6 +1,6 @@
 <template>
 	
-<nav>
+<nav class="main-nav">
 	<ul>
 		<li><a href=""></a>home</li>
 		<li><a href=""></a>about</li>
@@ -25,7 +25,7 @@ export default {
 
 <style>
 
-nav{
+nav.main-nav{
 	text-align: center;
 
 }
