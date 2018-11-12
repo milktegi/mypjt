@@ -12,15 +12,10 @@
 export default {
 	
 	name: 'AllFriends',
+	props: ['friends'],
 	data() {
 		return {
-			friends: [
-				{ name: 'mario1', online: true },
-				{ name: 'mario2', online: false },
-				{ name: 'mario3', online: true },
-				{ name: 'mario4', online: true },
-			]
-
+		
 		}
 	}
 }
